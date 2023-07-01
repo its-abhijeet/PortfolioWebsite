@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import AutoText from "./AutoText";
 
 const Hero = () => {
   return (
@@ -19,8 +20,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Abhijeet</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I try to develop visuals, user <br className="sm:block hidden" />
-            interfaces and web applications
+            <AutoText />
           </p>
         </div>
       </div>

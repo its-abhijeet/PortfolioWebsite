@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import rogan from "./company/rogan.jpeg";
 import speezy from "./company/speezy.jpeg";
 import megalith from "./company/megalith.jpeg";
+import trj from "./company/trj.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -36,6 +37,8 @@ import tripguide from "./tripguide.png";
 import tshirt from "./Tshirt demo.png";
 import secrets from "./Secrets.png";
 import dolla from "./dolla.png";
+import airbnb from "./airbnb.png";
+import deliveroo from "./deliveroo.jpg";
 
 export {
   logo,
@@ -73,4 +76,7 @@ export {
   tshirt,
   secrets,
   logo2,
+  airbnb,
+  deliveroo,
+  trj,
 };

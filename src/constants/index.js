@@ -29,6 +29,9 @@ import {
   tshirt,
   secrets,
   dolla,
+  airbnb,
+  trj,
+  deliveroo,
 } from "../assets";
 
 export const navLinks = [
@@ -78,10 +81,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -139,7 +142,7 @@ const experiences = [
     company_name: "Speezy",
     icon: speezy,
     iconBg: "#383E56",
-    date: "February 2023 - Ongoing",
+    date: "February 2023 - May 2023",
     points: [
       "Developing and maintaining web applications using React.js.",
       "Collaborating with teams including designers and backend and other frontend developers.",
@@ -147,7 +150,7 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
+    title: "Web Team Member",
     company_name: "Megalith, IIT Kharagpur",
     icon: megalith,
     iconBg: "#383E56",
@@ -156,6 +159,18 @@ const experiences = [
       "Coordinated with a team of 60+ members to decide the theme of the fest and worked on the development of the website including backend and frontend.",
       "Providing constructive criticism to other developers and also working along the mindset of seniors.",
       "Managed the workflow and development of the website ranging from work distribution to coordinating with the heads for successful organization of the fest.",
+    ],
+  },
+  {
+    title: "Junior Software Developer",
+    company_name: "The Return Journey LLP",
+    icon: trj,
+    iconBg: "#383E56",
+    date: "July 2023 - Ongoing",
+    points: [
+      "Coordinated with a senior developers and UI/UX heads to plan out the structure of the React Native from scratch.",
+      "Assisting in development tasks and building optimised solutions for the app to be progressive in all fields.",
+      "Maintenance of proper version control in the code, Collaborating with team members to meet project goals and deadlines and Testing and troubleshooting software applications",
     ],
   },
   // {
@@ -259,6 +274,49 @@ const projects = [
     ],
     image: dolla,
     source_code_link: "https://dolla-virtual-finance.netlify.app/",
+  },
+  {
+    name: "AirBnB Clone",
+    description:
+      "Want to get locations for this vacation? Check out this AirBnB clone made by me.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind-CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: airbnb,
+    source_code_link: "https://github.com/its-abhijeet/airbnb-clone",
+  },
+  {
+    name: "Deliveroo 2.0",
+    description:
+      "Savor the Flavor, Fast to Your Door! Enjoy th e new deliveroo app and satisfy yourself with your meals.",
+    tags: [
+      {
+        name: "React-Native & Redux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Sanity.io",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: deliveroo,
+    source_code_link:
+      "https://drive.google.com/drive/folders/1c_Gw3cjiC51Hy_WeljK3_rS7fsdbGEXz?usp=sharing",
   },
 ];
 
