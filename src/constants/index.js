@@ -32,6 +32,7 @@ import {
   airbnb,
   trj,
   deliveroo,
+  lmsApp,
 } from "../assets";
 
 export const navLinks = [
@@ -295,6 +296,28 @@ const projects = [
     ],
     image: airbnb,
     source_code_link: "https://github.com/its-abhijeet/airbnb-clone",
+  },
+  {
+    name: "Your Path",
+    description:
+      "Confused about how to structure your learning? Explore Your Path - an excellent learning management system. ",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS & Stripe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: lmsApp,
+    source_code_link:
+      "https://github.com/its-abhijeet/learning-management-system",
   },
   {
     name: "Deliveroo 2.0",

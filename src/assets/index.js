@@ -39,6 +39,7 @@ import secrets from "./Secrets.png";
 import dolla from "./dolla.png";
 import airbnb from "./airbnb.png";
 import deliveroo from "./deliveroo.jpg";
+import lmsApp from "./lmsApp.png";
 
 export {
   logo,
@@ -79,4 +80,5 @@ export {
   airbnb,
   deliveroo,
   trj,
+  lmsApp,
 };
